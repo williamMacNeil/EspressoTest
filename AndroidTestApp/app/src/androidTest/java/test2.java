@@ -48,6 +48,7 @@ public class test2 extends ActivityInstrumentationTestCase2<ActionBarTestActivit
         onView(withId(R.id.action_save)).perform(click());
         try{
             Thread.sleep(500);
+            Thread.sleep(500);
         }catch(Exception e){
 
         }
