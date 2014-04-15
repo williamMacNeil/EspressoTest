@@ -20,8 +20,7 @@ android {
 }
 
 dependencies {
-
     compile 'com.android.support:appcompat-v7:+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile files('/Users/williammacneil/Documents/AndroidTestApp/libs/espresso-1.1-bundled.jar')
+    androidTestCompile files('libs/espresso-1.1-bundled.jar')
 }
